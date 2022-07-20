@@ -28,18 +28,26 @@ a {
   font-size: 0.95rem;
 }
 
-.tm-color-primary {
+/* Titulo Principal */
+.tm-color-main {
   color: rgb(255, 255, 255);
+}
+
+/* Subtitulos */
+.tm-color-primary {
+  color: rgb(0, 0, 0);
 }
 
 .tm-color-gray {
   color: rgb(255, 255, 255);
 }
 
+/* BARA LATERAL sin activar (abierta desde inicio) */
 .tm-bg-black-transparent {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, );
 }
 
+/* Seccion  central de texto*/
 .tm-bg-white-transparent {
   background-color: rgba(48, 46, 46, 0.6);
   border: 1px solid white;
@@ -157,11 +165,12 @@ a {
   margin-bottom: 160px;
 }
 
+ /* Pulso de seccion activa*/
 .tm-white-rect {
   display: block;
   width: 15px;
   height: 15px;
-  background-color: rgb(34, 214, 139);
+  background-color: rgb(185, 21, 21);
 }
 
 .nav-link {
@@ -216,9 +225,10 @@ a {
   justify-content: center;
 }
 
+/* Social buttons cliccking */
 .tm-social-link:hover,
 .tm-social-link:focus {
-  background-color: rgb(240, 30, 30);
+  background-color: rgb(185, 21, 21);
   color: white;
 }
 
