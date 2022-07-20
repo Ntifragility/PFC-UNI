@@ -8,7 +8,8 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   color: #707172;
-  background-color: rgb(102, 102, 102);
+  /* BARRA LATERAL que cae desde el inicio (solo cuando se empieza a pantalla completa) */
+  background-color: rgb(0, 0, 0, 1)
 }
 
 p {
@@ -42,10 +43,11 @@ a {
   color: rgb(255, 255, 255);
 }
 
-/* BARA LATERAL sin activar (abierta desde inicio) */
+/* BARRA LATERAL sin activar (abierta desde inicio)
 .tm-bg-black-transparent {
-  background-color: rgba(0, 0, 0, );
+  background-color: rgba(0, 0, 0,0);
 }
+ */
 
 /* Seccion  central de texto*/
 .tm-bg-white-transparent {
@@ -581,7 +583,7 @@ figure.effect-bubba:hover p {
 }
 
 @media (max-width: 991px) {
-  /* BARA LATERAL activada por click */
+  /* BARRA LATERAL activada por click */
   .tm-bg-black-transparent {
     background-color: rgba(0, 0, 0, 1);
   }
@@ -616,12 +618,13 @@ figure.effect-bubba:hover p {
     transition: all 0.8s ease;
   }
 
+  /* Botonera para deslizar menu lateral*/
   .navbar-toggler {
     display: block;
     position: fixed;
     left: 0;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(185, 21, 21);;
     color: white;
     padding: 10px 15px;
     transition: all 0.3s ease;
