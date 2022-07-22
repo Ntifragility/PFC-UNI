@@ -143,6 +143,13 @@
                   Debido a que es necesario tener un sistema de información que permita conocer el estado de las vías nacionales,
                   desarrollamos un algoritmo que permita procesar imagenes satelitales. 
                 </p>
+                <p>
+                  OBJETIVO GENERAL 
+                </p>
+                <p>
+                  Diseñar e implementar un sistema informático que brinde información sobre el estado de las vías de transporte 
+                  con mayor incidencia de bloqueo o inhabilitación a causa de factores ambientales en las regiones Amazonas y San Martin. 
+                </p>
             </div>
           </div>
 
@@ -152,11 +159,15 @@
               <div class="tm-section-half">    
                 <h2 class="tm-section-title tm-color-primary mb-5">CAPITULO II</h2>
                 <p class="mb-5">
+                  AMBIENTE DE ESTUDIO 
+                </p>
+                <p>
                   Este proyecto analiza imagenes de las carreteras de las regiones de Amazonas y San Martin. 
                 </p>
                 <p>
-                  Se desarrolla un algoritmo que filtra las imagenes a traves de un proceso RGB 
-                  para despues compararlo con la imagen sin filtrar.
+                  De acuerdo con el Sistema Interconectado Nacional de Carreteras, SINAC, 
+                  la red vial de Amazonas tiene 855 Km de vía nacional, 754.3 Km de vía departamental
+                   y 1651 Km de vía vecinal. Las vías no pavimentadas representan un 72.92 % del total disponible en la región.
                 </p>
               </div>
             </section>
@@ -168,16 +179,33 @@
                 <div class="tm-section-half">    
                     <h2 class="tm-section-title tm-color-primary mb-5">CAPITULO III</h2>
                     <p class="mb-5">
-                      Diagrama de flujo del Algoritmo desarrollado
+                      PROCESAMIENTO DIGITAL DE IMAGENES MEDIANTE FILTRADO RGB
                     </p>
                     <p>
-                      Sed at orci non metus tristique suscipit vitae in nibh. Sed
-                      rutrum odio ac est hendrerit, at vestibulum felis condimentum.
+                      La segmentación de imágenes permite dividir una imagen en segmentos, regiones u objetos individuales, 
+                      que tienen algún rasgo en común y así es más fácil la clasificación de los objetos presentes en la imagen. 
+                      Estos datos pueden serán útiles en nuestro trabajo ya que nos permitirá definir bordes, 
+                      formas y diferenciar tonalidades.
                     </p>
-                    <img src="img/gallery/Algoritmo.png" alt="Our Work Image" class="img-fluid">
+                    <p>
+                      El procesado se realiza en la plataforma Júpiter notebook, extensión del software Anaconda, 
+                      en el cual se permite la ejecución de códigos en lenguajes de programación como es el caso de Python. 
+                    </p>
+                    <p>
+                     .
+                    </p>
+                    <p class="mb-5">
+                      DIAGRAMA DE FLUJO DEL ALGORITMO DESARROLLADO
+                    </p>
+                    <p>
+                      La imagen a analizar proviene de un satelite georeferenciado. 
+                      Luego se filtra y dependiendo del resultado se compara con a imagen de referencia. 
+                      Si hay una variacion, se emite una alerta. Si no, no se emite ninguna. 
+                      Finalmente las imagenes son cargadas a la pagina web.
+                    </p>
+                    <img src="img/gallery/Algoritmo.png" alt="Our Work Image" class="img-fluid">            </section>
                 </div>
 
-            </section>
           </div>
 
 
@@ -187,7 +215,7 @@
               <div class="tm-section-half">    
                 <h2 class="tm-section-title tm-color-primary mb-5">CAPITULO IV</h2>
                 <p class="mb-5">
-                  Diagrama de flujo del Algoritmo desarrollado
+                  DIAGRAMA DE FLUJO DEL ALGORITMO DESARROLLADO
                 </p>
                 <p>
                   La imagen a analizar proviene de un satelite georeferenciado. 
