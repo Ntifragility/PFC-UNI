@@ -74,6 +74,27 @@ a {
   background: transparent;
 }
 
+/*---------------- BUTTON ----------------------*/
+.buttons-con .action-link-wrap {
+  max-width: 130px;
+  margin-top: 40px;
+  background: rgb(185, 21, 21);
+  /*padding: 8px 8px;*/
+  border-radius: 4px;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 20px;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  text-decoration: none;
+  /*Margin medido desde la derecha:*/
+  margin-right: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+/*------------------------------------------------*/
+
 /* Ubicacion centarda - Seccion principal de texto*/
 .tm-section {
   display: flex;
@@ -99,7 +120,7 @@ a {
   min-height: 160px;
   color: rgb(99, 230, 13);
   text-align: center;
-  margin: 70px auto 90px;
+  margin: 50px auto 90px;
 }
 
 .tm-double-border-1,
@@ -122,7 +143,7 @@ a {
 }
 
 .tm-brand {
-  padding: 30px;
+  padding: 20px;
 }
 
 .tm-sidebar {
@@ -131,6 +152,7 @@ a {
   bottom: 0;
   left: 0;
   z-index: 100;
+  padding: 15px;
   padding-left: 70px;
   padding-right: 70px;
   width: 400px;
@@ -169,7 +191,7 @@ a {
 }
 
 .tm-main-nav {
-  margin-bottom: 160px;
+  margin-bottom: 15x;
 }
 
  /* Pulso de seccion activa*/
@@ -182,8 +204,8 @@ a {
 
 .nav-link {
   font-size: 1.25rem;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .nav-link .tm-white-rect {
@@ -203,6 +225,14 @@ a {
   animation-iteration-count: infinite;
 }
 
+.nav-link2 {
+  font-size: 1.25rem;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
 @keyframes blinker {
   0% {
     opacity: 1;
@@ -220,13 +250,14 @@ a {
 }
 
 .tm-social-link {
-  width: 40px;
+  width: 60px;
   height: 40px;
   color: black;
   background-color: white;
   margin: 8px;
+  margin-left: 35px;
   border-radius: 5px;
-  padding: 0;
+  padding: 2;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -571,6 +602,7 @@ figure.effect-bubba:hover p {
 
   .tm-social-link {
     margin: 5px;
+    margin-left: 35px;
   }
 
   .tm-section-wrap {
@@ -605,7 +637,7 @@ figure.effect-bubba:hover p {
   }
 
   .tm-main-nav {
-    margin-bottom: 60px;
+    margin-bottom: 25px;
   }
 
   .tm-social-links {
@@ -680,6 +712,9 @@ figure.effect-bubba:hover p {
 }
 
 @media (max-width: 383px) {
+  .buttons-con .action-link-wrap {
+    max-width: 20px;
+  }
   .slick-dots {
     bottom: -40px;
   }
